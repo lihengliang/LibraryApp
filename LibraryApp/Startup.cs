@@ -29,6 +29,7 @@ namespace LibraryApp
             services.AddControllersWithViews();
             services.AddSingleton(Configuration);
             services.AddScoped<ILibraryAsset, LibraryAssetService>();
+            services.AddScoped<ICheckout, CheckoutService>();
             // connect to sql database
             services.AddDbContext<LibraryContext>(options 
                 => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
