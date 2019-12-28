@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using LibraryApp.Models.Catalog;
-using LibraryApp.Models.Catalog.Checkout;
+using LibraryApp.Models.Checkout;
 using LibraryData;
 using Microsoft.AspNetCore.Mvc;
 
